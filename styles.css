@@ -1,0 +1,52 @@
+/* roboto  font files*/
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Regular.ttf') format('truetype');
+
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url('fonts/Roboto-Italic.ttf') format('truetype');
+    font-style: italic;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #232323;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    text-align: center;
+}
+
+.pfp {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+}
+
+.title {
+    margin-top: 16px;
+    margin-bottom: 0px;
+    font-size: 40px;
+}
+
+.rollingText {
+    margin-top: 8px;
+    animation: roll 10s linear infinite;
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.socialIcons img {
+    width: 45px;
+    margin: 3px;
+}
